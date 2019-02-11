@@ -1,0 +1,929 @@
+{
+  "isLandscape": true,
+  "drawingData": {
+    "cells": [
+      {
+        "type": "tp.Element",
+        "shape": "mobileDevice",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 12,
+          "y": 0
+        },
+        "size": {
+          "width": 63.92640088917227,
+          "height": 133.09267070368654
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"754155e2-2b4b-f9d6-d961-8ec559a08c9b\" id=\"id64073562-3652-46b6-8571-8139f7e28236\" data-type=\"term\">mobile device A</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "47b9d06f-cca7-4834-80ac-4033df456fc1",
+        "z": 2,
+        "labelLayout": {
+          "labelBoxWidth": 48.34095764160156,
+          "fullString": "MOBILE DEVICE A 102",
+          "endPad": 7.4621734619140625,
+          "lines": [
+            {
+              "text": "MOBILE",
+              "width": 48.14421081542969,
+              "x": 0.0983734130859375,
+              "y": 8.753354089355472
+            },
+            {
+              "text": "DEVICE",
+              "width": 42.34941101074219,
+              "x": 2.9957733154296875,
+              "y": 29.75339158935547
+            },
+            {
+              "text": "A 102",
+              "width": 33.3018798828125,
+              "x": 7.519538879394531,
+              "y": 50.753429089355464
+            }
+          ],
+          "textWidth": 48.14421081542969,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "30663734-467a-9217-0772-8bc1780ad05c",
+        "number": 2
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"1e446046-a7da-0b22-00a3-1a9505b9846b\" id=\"id98b5244d-e041-0802-1772-7e07f77591da\" data-type=\"term\">CDX service</span></p>",
+        "position": {
+          "x": 282,
+          "y": 0
+        },
+        "size": {
+          "width": 94.48819160461426,
+          "height": 94.48819160461426
+        },
+        "angle": 0,
+        "label": "<p>connection data exchange</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "28507628-f9bb-4aab-aa45-a4550f2904fe",
+        "z": 3,
+        "labelLayout": {
+          "labelBoxWidth": 86.2293701171875,
+          "fullString": "CONNECTION DATA EXCHANGE 104",
+          "endPad": 7.4621734619140625,
+          "lines": [
+            {
+              "text": "CONNECTION",
+              "width": 81.96542358398438,
+              "x": 2.1319732666015625,
+              "y": 0.9351132934570359
+            },
+            {
+              "text": "DATA",
+              "width": 27.3795166015625,
+              "x": 29.4249267578125,
+              "y": 21.935150793457034
+            },
+            {
+              "text": "EXCHANGE",
+              "width": 64.81793212890625,
+              "x": 10.705718994140625,
+              "y": 42.93518829345703
+            },
+            {
+              "text": "104",
+              "width": 22.386520385742188,
+              "x": 31.921424865722656,
+              "y": 63.93522579345703
+            }
+          ],
+          "textWidth": 81.96542358398438,
+          "textHeight": 84.00014999999999
+        },
+        "objectID": "1bbbd4ee-fdec-1776-768f-453aae94dd03",
+        "number": 4
+      },
+      {
+        "type": "tp.Element",
+        "shape": "mobileDevice",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 577,
+          "y": 0
+        },
+        "size": {
+          "width": 63.92640088917227,
+          "height": 133.09267070368654
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"20577664-f8f4-19f2-ea7b-f0da5fb66927\" id=\"id09001ed4-7b50-5d4e-317d-c68d31c0ae40\" data-type=\"term\">mobile device B</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "e55d146c-68af-4343-98cc-4f1ef0b0c0ad",
+        "z": 4,
+        "labelLayout": {
+          "labelBoxWidth": 48.34095764160156,
+          "fullString": "MOBILE DEVICE B 106",
+          "endPad": 7.4621734619140625,
+          "lines": [
+            {
+              "text": "MOBILE",
+              "width": 48.14421081542969,
+              "x": 0.0983734130859375,
+              "y": 8.753354089355472
+            },
+            {
+              "text": "DEVICE",
+              "width": 42.34941101074219,
+              "x": 2.9957733154296875,
+              "y": 29.75339158935547
+            },
+            {
+              "text": "B 106",
+              "width": 34.15834045410156,
+              "x": 7.09130859375,
+              "y": 50.753429089355464
+            }
+          ],
+          "textWidth": 48.14421081542969,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "b65cb0da-31fd-3f60-95c5-3650396a5d4f",
+        "number": 6
+      },
+      {
+        "type": "tp.Element",
+        "shape": "rectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 800.5118083953857,
+          "y": 0
+        },
+        "size": {
+          "width": 94.48819160461426,
+          "height": 94.48819160461426
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"c55ddded-4dc3-5fac-d260-a3c6b78d7074\" id=\"id7faeb32b-ade2-543f-7e0e-f531e21f5254\" data-type=\"term\">matchmaker service</span></p>",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "701e62f5-2ee2-4594-b713-21ebf4a7ff8a",
+        "z": 5,
+        "labelLayout": {
+          "labelBoxWidth": 86.2293701171875,
+          "fullString": "MATCHMAKER SERVICE 108",
+          "endPad": 7.4621734619140625,
+          "lines": [
+            {
+              "text": "MATCHMAKER",
+              "width": 84.84463500976562,
+              "x": 0.6923675537109375,
+              "y": 21.935150793457034
+            },
+            {
+              "text": "SERVICE 108",
+              "width": 74.47593688964844,
+              "x": 5.876716613769531,
+              "y": 42.93518829345703
+            }
+          ],
+          "textWidth": 84.84463500976562,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "67f24d89-5572-2abc-a614-35b249574ac8",
+        "number": 8
+      },
+      {
+        "type": "tp.Element",
+        "shape": "oneSidedLeft",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 43,
+          "y": 134
+        },
+        "size": {
+          "width": 2,
+          "height": 501
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "neither",
+        "id": "66076f25-3d1d-44e3-9da4-71a8f4e3199c",
+        "z": 12,
+        "labelLayout": {
+          "labelBoxWidth": 1.999931812286377,
+          "fullString": " ",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": " ",
+              "width": 0,
+              "x": 0.9999659061431885,
+              "y": 239.99998125
+            }
+          ],
+          "textWidth": 0,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "25b1be58-2715-3801-89a6-6172b366a670",
+        "number": null
+      },
+      {
+        "type": "tp.Element",
+        "shape": "oneSidedLeft",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 608,
+          "y": 135
+        },
+        "size": {
+          "width": 2,
+          "height": 501
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "neither",
+        "id": "cca68891-0db9-83a3-3ff3-9cbe8a911d34",
+        "z": 13,
+        "labelLayout": {
+          "labelBoxWidth": 1.999931812286377,
+          "fullString": " ",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": " ",
+              "width": 0,
+              "x": 0.9999659061431885,
+              "y": 239.99998125
+            }
+          ],
+          "textWidth": 0,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "9cc32ae9-04f3-5607-f857-78cffb2e53fa",
+        "number": null
+      },
+      {
+        "type": "tp.Element",
+        "shape": "oneSidedLeft",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 852,
+          "y": 95
+        },
+        "size": {
+          "width": 2,
+          "height": 540
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "neither",
+        "id": "233b52d6-512d-4dbf-4258-f33880a50c75",
+        "z": 14,
+        "labelLayout": {
+          "labelBoxWidth": 1.999931812286377,
+          "fullString": " ",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": " ",
+              "width": 0,
+              "x": 0.9999659061431885,
+              "y": 259.49998125
+            }
+          ],
+          "textWidth": 0,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "df635e4b-57af-2f62-16da-7aaf6ef16aa5",
+        "number": null
+      },
+      {
+        "type": "tp.Element",
+        "shape": "oneSidedLeft",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 328,
+          "y": 96
+        },
+        "size": {
+          "width": 2,
+          "height": 540
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position10",
+        "arrowheads": "neither",
+        "id": "d7994634-265b-3c26-d947-3c8b09c12fab",
+        "z": 15,
+        "labelLayout": {
+          "labelBoxWidth": 1.999931812286377,
+          "fullString": " ",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": " ",
+              "width": 0,
+              "x": 0.9999659061431885,
+              "y": 259.49998125
+            }
+          ],
+          "textWidth": 0,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "a366e599-425f-f118-b536-85a9a617df2d",
+        "number": null
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 42,
+          "y": 161
+        },
+        "target": {
+          "id": "d7994634-265b-3c26-d947-3c8b09c12fab"
+        },
+        "id": "59bd2eae-8442-4ebe-8330-de4871debfc6",
+        "embeds": "",
+        "z": 16,
+        "routing": "straight",
+        "objectID": "49a0b398-8c00-0e8f-8b3e-2e3858d2370d",
+        "number": 10,
+        "label": "<p><span data-role=\"tag\" data-value=\"99032961-ca14-2e9c-7ef9-640d1b807cdf\" id=\"id67544a1d-a7bd-2375-5700-d175bade70a5\" data-type=\"term\">NAT traversal request</span></p>"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "d7994634-265b-3c26-d947-3c8b09c12fab"
+        },
+        "target": {
+          "x": 43,
+          "y": 203
+        },
+        "id": "a9c00168-bdc9-45c4-9f83-2c801f27311c",
+        "embeds": "",
+        "z": 17,
+        "routing": "straight",
+        "objectID": "5b56c3c7-d9b5-ddc2-502a-084ac81b9be8",
+        "label": "<p>nat traversal <span data-role=\"tag\" data-value=\"1020c46b-0ef5-b358-a2d0-7e199f8aaa2e\" id=\"id01068670-5c9d-5a5b-f1fd-c099c89fe6b8\" data-type=\"term\">response</span></p>",
+        "number": 12
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "cca68891-0db9-83a3-3ff3-9cbe8a911d34"
+        },
+        "target": {
+          "x": 332,
+          "y": 154
+        },
+        "id": "52a7efc0-4bff-449f-a7a0-0dd7b700bad6",
+        "embeds": "",
+        "z": 18,
+        "routing": "straight",
+        "objectID": "011ff479-e4a0-f0ea-cc53-8c973b69b22d",
+        "number": 14,
+        "jumpLines": true,
+        "vertices": [],
+        "label": "<p><span data-role=\"tag\" data-value=\"99032961-ca14-2e9c-7ef9-640d1b807cdf\" id=\"idf8485cb8-2e9d-38b9-5cc4-c48e78c0657f\" data-type=\"term\">NAT traversal request</span></p>"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "d7994634-265b-3c26-d947-3c8b09c12fab"
+        },
+        "target": {
+          "x": 607,
+          "y": 203
+        },
+        "id": "e0bb3265-727c-40eb-acc6-c2c1624d3b1f",
+        "embeds": "",
+        "z": 19,
+        "routing": "straight",
+        "objectID": "91d9dce8-3a76-a9c0-a4e4-ebfe66f73f56",
+        "label": "<p>nat traversal response</p>",
+        "number": 18
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "66076f25-3d1d-44e3-9da4-71a8f4e3199c"
+        },
+        "target": {
+          "x": 851,
+          "y": 236
+        },
+        "id": "74d06468-c976-4761-af04-2c4431c22930",
+        "embeds": "",
+        "z": 20,
+        "routing": "straight",
+        "objectID": "3f746988-93bc-d25b-e8a6-27512c17687f",
+        "label": "<p><span data-role=\"tag\" data-value=\"c9eef05d-d3ac-6686-52d1-2f6b5637c0d1\" id=\"idc89f269b-ab21-2bf0-2aaf-78e399ce5fb0\" data-type=\"term\">match request</span></p>",
+        "number": 16
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "cca68891-0db9-83a3-3ff3-9cbe8a911d34"
+        },
+        "target": {
+          "x": 851,
+          "y": 277
+        },
+        "id": "72e2f879-141b-48d3-8eb5-092d93f7d209",
+        "embeds": "",
+        "z": 21,
+        "routing": "straight",
+        "objectID": "6696a22b-50f9-8c2e-727f-16699f47800f",
+        "label": "<p><span data-role=\"tag\" data-value=\"c9eef05d-d3ac-6686-52d1-2f6b5637c0d1\" id=\"id3d1e1ca7-0b01-1d67-d050-e81a97be5cf3\" data-type=\"term\">match request</span></p>",
+        "number": 20
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 851,
+          "y": 299
+        },
+        "target": {
+          "x": 46,
+          "y": 297
+        },
+        "id": "5f1bd08b-a611-4566-b565-c3c631803e96",
+        "embeds": "",
+        "z": 22,
+        "routing": "straight",
+        "objectID": "c6a07944-7f74-b25e-4f19-3b64632379f6",
+        "label": "<p><span data-role=\"tag\" data-value=\"2d356c34-ebd9-db8f-e2a2-b783be448e23\" id=\"ideb0897ce-3973-ec73-a261-2b05104746b1\" data-type=\"term\">Ticket A</span></p>",
+        "number": 22
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 853,
+          "y": 324
+        },
+        "target": {
+          "x": 609,
+          "y": 325
+        },
+        "id": "91bb9178-71cc-4910-b474-e2b8fa06cc4d",
+        "embeds": "",
+        "z": 23,
+        "routing": "straight",
+        "objectID": "22143bed-3412-7a51-fdcf-c87cf85a2a97",
+        "label": "<p><span data-role=\"tag\" data-value=\"bbeac60c-9bf2-589d-1164-696b5fdbd8b5\" id=\"ide2cfa8d8-693c-0c08-90f8-b7f67e0c7bb4\" data-type=\"term\">Ticket B</span></p>",
+        "number": 24,
+        "vertices": []
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 43,
+          "y": 337
+        },
+        "target": {
+          "id": "d7994634-265b-3c26-d947-3c8b09c12fab"
+        },
+        "id": "68ba4273-c3a9-4d96-9c0f-b9e0ae4906d7",
+        "embeds": "",
+        "z": 24,
+        "routing": "straight",
+        "objectID": "6c4cef1a-4868-e2bc-0e6a-d41f5adb78ec",
+        "number": 26,
+        "label": "<p><span data-role=\"tag\" data-value=\"2d356c34-ebd9-db8f-e2a2-b783be448e23\" id=\"id68fb8082-c166-6a0b-056d-64dd630f21c2\" data-type=\"term\">Ticket A</span>&nbsp;with <span data-role=\"tag\" data-value=\"3b9b6e47-5e68-6a67-b5f6-6a3becd3b869\" id=\"id483fde7a-27bb-7ee5-d874-18b2b70e9314\" data-type=\"term\">Connection Data</span></p>",
+        "vertices": []
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 328,
+          "y": 361
+        },
+        "target": {
+          "x": 330,
+          "y": 396
+        },
+        "id": "6ebb89e3-081b-4b6f-992e-54f1590c8422",
+        "embeds": "",
+        "z": 25,
+        "routing": "curved",
+        "objectID": "c77359ee-2a51-cdb7-7be8-cb833bff852f",
+        "vertices": [
+          {
+            "x": 290,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 82,
+          "y": 371
+        },
+        "size": {
+          "width": 241,
+          "height": 24
+        },
+        "angle": 0,
+        "label": "<p>authenticate <span data-role=\"tag\" data-value=\"2d356c34-ebd9-db8f-e2a2-b783be448e23\" id=\"idc9f76a33-4fe2-1e6f-be3b-2f3dbc2556d4\" data-type=\"term\">Ticket A</span></p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "5d2fc419-9bb9-4231-9789-df2a1849b1c5",
+        "z": 26,
+        "labelLayout": {
+          "labelBoxWidth": 219.9351806640625,
+          "fullString": "AUTHENTICATE TICKET A 128",
+          "endPad": 7.4621734619140625,
+          "lines": [
+            {
+              "text": "AUTHENTICATE TICKET A 128",
+              "width": 167.065185546875,
+              "x": 26.43499755859375,
+              "y": 0.4055198089599621
+            }
+          ],
+          "textWidth": 167.065185546875,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "bc78daa4-a5e3-9496-904b-dbc0d8a7daed",
+        "number": 28
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 77,
+          "y": 476
+        },
+        "size": {
+          "width": 241,
+          "height": 24
+        },
+        "angle": 0,
+        "label": "<p>authenticate <span data-role=\"tag\" data-value=\"bbeac60c-9bf2-589d-1164-696b5fdbd8b5\" id=\"id0fe0b7b7-4513-5102-9b8e-9ac0fc71ce9d\" data-type=\"term\">Ticket B</span></p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "arrowheads": "target",
+        "routing": "curved",
+        "id": "eaee2ebe-6f92-876b-3d4a-cc2a99ac4734",
+        "z": 27,
+        "labelLayout": {
+          "labelBoxWidth": 219.9351806640625,
+          "fullString": "AUTHENTICATE TICKET B 136",
+          "endPad": 7.4621734619140625,
+          "lines": [
+            {
+              "text": "AUTHENTICATE TICKET B 136",
+              "width": 167.92164611816406,
+              "x": 26.00676727294922,
+              "y": 0.4055198089599621
+            }
+          ],
+          "textWidth": 167.92164611816406,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "ec2baf31-c56f-bba6-76f8-6939e2a70a62",
+        "number": 36
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "none",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 328,
+          "y": 395
+        },
+        "target": {
+          "x": 606,
+          "y": 392
+        },
+        "id": "8e8cd1a0-533a-4abf-86e1-3013a44347d9",
+        "embeds": "",
+        "z": 27,
+        "routing": "straight",
+        "objectID": "be744140-3d40-9652-71f0-3bd818d2cb6d",
+        "number": 30,
+        "label": "<p><span data-role=\"tag\" data-value=\"3b9b6e47-5e68-6a67-b5f6-6a3becd3b869\" id=\"ida4c27eb0-2e31-563d-0141-026e0bf18c78\" data-type=\"term\">Connection Data</span></p>"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "none",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 609,
+          "y": 428
+        },
+        "target": {
+          "x": 328,
+          "y": 426
+        },
+        "id": "e7b61b92-1ae5-4988-8aeb-00447c268491",
+        "embeds": "",
+        "z": 28,
+        "routing": "straight",
+        "objectID": "b6fd8d0c-8f92-829e-acb0-d4099c6a3271",
+        "number": 32,
+        "label": "<p>ack&nbsp;</p>"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "none",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 329,
+          "y": 441
+        },
+        "target": {
+          "x": 41,
+          "y": 444
+        },
+        "id": "2d56d23c-48e1-48f7-8d98-44ba92bca108",
+        "embeds": "",
+        "z": 29,
+        "routing": "straight",
+        "objectID": "2cecae26-d62c-3e46-f188-1820e644094a",
+        "number": 34,
+        "label": "<p>ack</p>"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 609,
+          "y": 463
+        },
+        "target": {
+          "x": 327,
+          "y": 465
+        },
+        "id": "434fe8a0-b016-429c-9ce4-b8f841f4f588",
+        "embeds": "",
+        "z": 30,
+        "routing": "straight",
+        "objectID": "d0ab15d2-b377-cce0-88f9-b385b6e43a2d",
+        "label": "<p><span data-role=\"tag\" data-value=\"bbeac60c-9bf2-589d-1164-696b5fdbd8b5\" id=\"id3b70b4b1-c6e7-ed68-c288-6da1637917f7\" data-type=\"term\">Ticket B</span>&nbsp;with <span data-role=\"tag\" data-value=\"3b9b6e47-5e68-6a67-b5f6-6a3becd3b869\" id=\"id6d3b33af-e5c6-998b-6c7a-0dba90e3805f\" data-type=\"term\">Connection Data</span></p>",
+        "vertices": [],
+        "number": 38
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "d7994634-265b-3c26-d947-3c8b09c12fab"
+        },
+        "target": {
+          "x": 328,
+          "y": 499
+        },
+        "id": "bb6295a8-e364-41c2-8842-4258c3440366",
+        "embeds": "",
+        "z": 31,
+        "routing": "curved",
+        "objectID": "7dc8df9b-54f1-06be-657a-59f9d4357266",
+        "vertices": [
+          {
+            "x": 325,
+            "y": 472
+          },
+          {
+            "x": 290,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "d7994634-265b-3c26-d947-3c8b09c12fab"
+        },
+        "target": {
+          "x": 45,
+          "y": 522
+        },
+        "id": "49182bde-a710-4568-a375-7576c0bc3a6a",
+        "embeds": "",
+        "z": 32,
+        "routing": "straight",
+        "objectID": "144c8de3-39d7-6e6e-d105-621f3a6e1fe1",
+        "label": "<p><span data-role=\"tag\" data-value=\"3b9b6e47-5e68-6a67-b5f6-6a3becd3b869\" id=\"id4c3f01b6-92ae-6954-97c1-2efdc54623c7\" data-type=\"term\">Connection Data</span></p>",
+        "number": 40
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 41,
+          "y": 552
+        },
+        "target": {
+          "x": 325,
+          "y": 550
+        },
+        "id": "0cdd39cf-93c9-4059-8c69-2d7da6ce64b2",
+        "embeds": "",
+        "z": 33,
+        "routing": "straight",
+        "objectID": "4447bca0-faa4-a89b-2323-bb9114a954fa",
+        "number": 42,
+        "label": "<p>ack</p>",
+        "vertices": []
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "target",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 329,
+          "y": 562
+        },
+        "target": {
+          "x": 605,
+          "y": 564
+        },
+        "id": "75873fc7-8a8d-4b26-bef9-bbeb83696c4f",
+        "embeds": "",
+        "z": 34,
+        "routing": "straight",
+        "objectID": "ba60646c-a394-de51-4bf9-336ebbfa80f9",
+        "label": "<p>ack</p>",
+        "number": 44
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": true,
+        "arrowheads": "both",
+        "strokeStyle": "dashed",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 41,
+          "y": 605
+        },
+        "target": {
+          "x": 609,
+          "y": 602
+        },
+        "id": "ab3e097a-01e0-48dd-be79-99eb004ccada",
+        "embeds": "",
+        "z": 35,
+        "routing": "straight",
+        "objectID": "4dd5cac8-0d31-a785-482b-252032c8a535",
+        "label": "<p><span data-role=\"tag\" data-value=\"8e11dee6-1909-93f6-a9c4-add2a7abe4e3\" id=\"id5945b481-b9cf-b54f-ac29-7942f63b980e\" data-type=\"term\">direct P2P connection</span></p>",
+        "number": 46
+      }
+    ]
+  }
+}

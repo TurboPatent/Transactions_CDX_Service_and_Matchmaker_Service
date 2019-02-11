@@ -1,0 +1,198 @@
+<p>
+  <span data-role="tag" data-value="1b1f2cb1-9a38-4107-07d0-db6d8206248e" id="id3a1261f1-0ff7-c7a0-0fa4-f442e24adf0f" data-type="figure">Figure 1</span> illustrates an 
+  <span data-role="tag" data-value="1fd8aa42-4cd9-c2f8-e0ce-ac88f9fb67b6" id="id4f29c100-0150-4ca0-64a7-9cc5de314574" data-type="term">exemplary series</span> of 
+  <span data-role="tag" data-value="2003a4b6-b5ba-4cf4-792e-d866eaa4063a" id="id4e580ca1-8537-b81c-1833-5386518f394c" data-type="term">transactions</span> which can be implemented by a 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id1c2ce8c7-1ea3-3358-9ad0-9adf8b7e65c7" data-type="term">CDX server</span>. When describing the 
+  <span data-role="tag" data-value="8e6858c0-fec0-f7af-99d6-2ee0db50baff" id="id17d7c129-e8e3-e986-4cd2-0a46c0bb29c3" data-type="term">operation</span> of 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="id7fc1e278-a8ef-1625-897a-06e1fc88c305" data-type="term">one embodiment</span> of the 
+  <span data-role="tag" data-value="1e446046-a7da-0b22-00a3-1a9505b9846b" id="idf7c8fcf8-4955-01f8-0633-4c209e85be91" data-type="term">CDX service</span>, the following terms shall have the following meanings:&nbsp;
+</p>
+<p></p>
+<p>
+  <span data-role="tag" data-value="55dff458-e985-e76a-4f26-7fd0e64285f6" id="iddc19f317-1c84-0b8a-c3c6-afda187e6b18" data-type="term">connection</span> Data--This is the 
+  <span data-role="tag" data-value="ac2333e1-a350-5213-fda2-5eb7f3f23517" id="id260cb19d-4a14-228e-16ad-d942779707d3" data-type="term">information</span> which 
+  <span data-role="tag" data-value="f1681488-2e25-79fa-2dfd-c44033850369" id="idd84eef02-ba5b-e2b1-ac54-aecef2f152ed" data-type="term">potential peers</span> need to exchange with each other to establish a 
+  <span data-role="tag" data-value="9ef04b18-fd8a-1db5-408e-8bec1babd0d4" id="idf876a966-7365-4efe-358b-e2c535595123" data-type="term">Peer-To-Peer Session</span>. Described below are 
+  <span data-role="tag" data-value="f1665b04-cdc5-eb62-707a-1ba3ad0a76fe" id="id2bb8e720-7719-62ea-077b-9d1f267680e2" data-type="term">embodiments</span> of a 
+  <span data-role="tag" data-value="fd06a30d-5c61-e133-866a-04703f26621c" id="id856b54a8-6777-1c97-9f06-d0201c4efb6a" data-type="term">mechanism</span> for how this 
+  <span data-role="tag" data-value="ac2333e1-a350-5213-fda2-5eb7f3f23517" id="idef9b0ab2-3f3c-0cf1-e66f-883827ecacc5" data-type="term">information</span> can be exchanged.&nbsp;
+</p>
+<p></p>
+<p>CDX Server--A 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="idfb1ae9d1-c7da-b178-4359-0a0f68fb5167" data-type="term">CDX server</span> in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="ide0e60ca8-2857-c2de-fd06-841caecfea4e" data-type="term">one embodiment</span> is an 
+  <span data-role="tag" data-value="050096e6-b3e6-ae38-5b7c-2e072e54c6d7" id="id1d9bf978-8329-7668-7f7a-f3f0627ef42b" data-type="term">authenticated multicast reflector</span> which allows 
+  <span data-role="tag" data-value="14d2adc9-62b2-80cb-019e-5c21a2e0d9c5" id="id388bf4ea-afa7-f3c5-2b08-fb8e95097ddc" data-type="term">authorized entities</span> to exchange 
+  <span data-role="tag" data-value="91da466e-6125-330f-33b3-1d96cdf98c84" id="id591a7f9b-2887-19f6-8920-302100e378c8" data-type="term">arbitrary data</span>. This 
+  <span data-role="tag" data-value="7e747581-ece9-c5b3-18fa-5a5d6587a930" id="idec38b658-14cf-3d90-3e8d-180cdde82ecc" data-type="term">data</span> is referred to as the 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="id52af10fe-68b0-9f68-62e7-70b3860439e9" data-type="term">payload</span>.&nbsp;
+</p>
+<p></p>
+<p>CDX Session--A 
+  <span data-role="tag" data-value="e33a8fe2-7cc7-144c-1031-6980d6ba6017" id="id5e6e6559-84ce-49a4-315a-cdceedee4b29" data-type="term">CDX Session</span> refers to a 
+  <span data-role="tag" data-value="882cced7-e9b5-188a-260e-609fd275a591" id="id21ddcade-27fe-c890-4c36-46b8d8b5283f" data-type="term">group</span> of 
+  <span data-role="tag" data-value="f85e2a1f-0336-fe20-8ded-8da53a5dc10d" id="id8534f1e6-fa26-884f-ba95-3c0d5c7b6970" data-type="term">client devices</span> which can communicate with each other via the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id6cce052d-e299-7607-c289-a723ca328534" data-type="term">CDX server</span>. Each 
+  <span data-role="tag" data-value="4ed9fb9f-0a91-11f7-fdfa-cd586ea0b2da" id="id6f81c456-fb70-5cb4-87b7-15baf51a8199" data-type="term">client device</span> which is a 
+  <span data-role="tag" data-value="428ca935-8457-84f1-6952-4a3becb6d3c3" id="id6baffa4f-cb0d-47a4-9713-6094ffbcf9d3" data-type="term">part</span> of the 
+  <span data-role="tag" data-value="f26783e6-c975-c42a-6e65-b2a499495b08" id="idb18e1973-c830-82f5-20ee-976c5de539dc" data-type="term">session</span> is assigned a 
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="id121bd972-6329-b9b7-f5e5-43755785d7dc" data-type="term">CDX Ticket</span>. Each 
+  <span data-role="tag" data-value="f26783e6-c975-c42a-6e65-b2a499495b08" id="iddcabd70a-ef7c-60ca-0c9c-3bd6355ee468" data-type="term">session</span> has a 
+  <span data-role="tag" data-value="2c899830-9937-8e3a-e96f-6ea1dfb45c20" id="idc31f0c16-e259-b05f-b6dc-834cc1b6db7f" data-type="term">unique CDX Session ID</span>, which is a 
+  <span data-role="tag" data-value="44befffe-c8de-d4db-23fb-ebb4ea6945e7" id="idd207445e-ffdf-6824-6ec7-0ffe535b1776" data-type="term">large integer</span> which can be used to identify or refer to an 
+  <span data-role="tag" data-value="97a1abf4-ba31-5013-14e1-350d0e4820f3" id="id4ee0e3d0-671a-a9f9-9f92-4c47dbd7b6fa" data-type="term">individual session</span>.&nbsp;
+</p>
+<p></p>
+<p>CDX Request--A 
+  <span data-role="tag" data-value="f6aebebc-5b0d-4cf0-13b4-3a68e3de7f9c" id="idbb3fd21e-624a-f9a5-8c5b-dfd283ec9f15" data-type="term">request</span> that is sent from a 
+  <span data-role="tag" data-value="4ed9fb9f-0a91-11f7-fdfa-cd586ea0b2da" id="id3c9ccc83-7be1-e8ad-e6e6-859705870467" data-type="term">client device</span> to the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id7b41e544-d122-2ce8-4e0a-49ac86d1200d" data-type="term">CDX server</span>. A 
+  <span data-role="tag" data-value="f6aebebc-5b0d-4cf0-13b4-3a68e3de7f9c" id="idd111f8c5-84bf-e149-8495-67f2305688c1" data-type="term">request</span> generally consists of 
+  <span data-role="tag" data-value="3df9085b-9d98-f6a4-3148-b522be019913" id="id5ecc9b53-afaa-f816-a8cb-6d376cd554e6" data-type="term">two parts</span>: a 
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="id621a5e02-78d5-03d6-7023-16728e674c39" data-type="term">CDX Ticket</span> and the 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="id8fccc5ac-12e2-a191-a1da-936a60f74552" data-type="term">payload</span>. In this 
+  <span data-role="tag" data-value="2e16c5da-3c2a-396f-1fe4-b9fe3b38f468" id="id95f05679-3006-78ae-b1e1-b25a1738fb1b" data-type="term">embodiment</span>, the 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="id97e9418f-5004-a019-d8dd-498220c0c7e7" data-type="term">payload</span> is 
+  <span data-role="tag" data-value="3b9b6e47-5e68-6a67-b5f6-6a3becd3b869" id="id75e39818-a06b-fce1-49dd-b2f64941328e" data-type="term">Connection Data</span> encrypted with the 
+  <span data-role="tag" data-value="9960de7a-85ea-b0c7-57f9-90210a1699ab" id="id1ac48388-dd84-79c4-0cf2-d52b0719648f" data-type="term">Session Key</span>.&nbsp;
+</p>
+<p></p>
+<p>CDX Response--A 
+  <span data-role="tag" data-value="2f3cfe3e-ec70-e3d9-a1ff-5e24180c53e1" id="id5630ee03-23c5-2b06-1ef0-187b3700ee7d" data-type="term">CDX Response</span> is what is "reflected" back to the 
+  <span data-role="tag" data-value="ec7d1202-fa8c-fa3f-8bd1-e5330e5f5a9b" id="id62089ab7-3924-d9a8-162c-68c6cfcf44e3" data-type="term">other devices</span> in a 
+  <span data-role="tag" data-value="e33a8fe2-7cc7-144c-1031-6980d6ba6017" id="id232a9ed5-fe1a-7c23-2884-33040ab71f16" data-type="term">CDX Session</span> when the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id5d146e6e-be62-0ebe-0c16-c23d06ada9f9" data-type="term">CDX server</span> receives a 
+  <span data-role="tag" data-value="79052631-889e-0f30-9a09-ad47203285a2" id="idaf871032-409f-cdbb-19be-7859d17d7d5e" data-type="term">CDX Request</span> from a 
+  <span data-role="tag" data-value="91801e41-7daa-690f-7449-e76b70636ffa" id="id4a387a26-7e3a-e845-e4c4-1b9fde782ef6" data-type="term">member</span> of the 
+  <span data-role="tag" data-value="e33a8fe2-7cc7-144c-1031-6980d6ba6017" id="idb1eda471-3925-3209-99b7-8f3823435157" data-type="term">CDX Session</span>. It is constructed by appending the 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="idac91f75a-47f7-a4f1-9cd6-6be89d5f4483" data-type="term">payload</span> to the 
+  <span data-role="tag" data-value="70d97fe2-29c8-8c2d-097b-c612a3dca591" id="id7c952b68-6589-8661-aa23-0c5245f7c8fa" data-type="term">CDX Ticket Stub</span> of the 
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="id4cd3664a-5d11-8af0-8221-9ed7a3c42286" data-type="term">CDX Ticket</span> used in the 
+  <span data-role="tag" data-value="b469ec23-a50e-e682-65a1-e1b9df545df9" id="ideb83f730-4bdf-2dee-7fd6-fdda9447037a" data-type="term">given CDX Request</span>.&nbsp;
+</p>
+<p></p>
+<p>CDX Ticket--A 
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="id696daaa3-0f54-69bc-bee1-b274d5f8c702" data-type="term">CDX Ticket</span> tells the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id8b103bff-36cd-5908-419b-2f345567294b" data-type="term">CDX server</span> how to send a 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="idfe08dbda-2a51-4faa-03cf-48236cd32e1e" data-type="term">payload</span> to the 
+  <span data-role="tag" data-value="458a2533-c444-1331-0138-1467a6f5cc78" id="id391f3e87-b6bb-c8b8-5bcc-8b942e9d0370" data-type="term">members</span> of the 
+  <span data-role="tag" data-value="e33a8fe2-7cc7-144c-1031-6980d6ba6017" id="id944657cf-ddfd-97f3-f4be-ff38533c577f" data-type="term">CDX Session</span>. In 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="id0a577a0e-c6fd-dc77-d5c5-e4aa66c7d2d2" data-type="term">one embodiment</span>, it is "signed" with the 
+  <span data-role="tag" data-value="36aa6050-8979-21a4-5b70-5acbc86f7f47" id="id2e949360-65b8-fc70-4233-7b326642141e" data-type="term">CDX Ticket Key</span> to prevent 
+  <span data-role="tag" data-value="4dc13e6a-1a5c-496f-f606-c84f67d27027" id="idf134182e-4fe4-4eec-0371-c5b1f466e9d6" data-type="term">forgery or tampering</span>. As illustrated in FIG. 3, in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="id277499bc-66e7-4208-2d2b-83c32a9a1929" data-type="term">one embodiment</span>, a 
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="idfbdcde2b-d385-acd6-0223-00c2eef774ba" data-type="term">CDX Ticket</span> contains the following information:&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="d4098a46-2c6b-1aad-0e7d-c9e9bee275ec" id="id68e9ee47-35f7-74b4-b525-6af460d770ad" data-type="term">Session ID</span> 301 which is not encrypted or obfuscated in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="idacb58b6d-dd85-4f01-4103-33456580f57f" data-type="term">one embodiment</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="1d3725c1-bf59-2eec-1442-0e6932a15eee" id="id50aa3d2b-e66b-ad19-8ebd-f67ffe2954ac" data-type="term">number</span> of 
+  <span data-role="tag" data-value="50e84d39-92a3-bff7-4127-0ed397ceb4c7" id="idbe5a5d64-6460-e778-3648-dbcec83c84f3" data-type="term">participants</span> 302 in the 
+  <span data-role="tag" data-value="f26783e6-c975-c42a-6e65-b2a499495b08" id="id2adc8396-6721-0d7d-08d1-e4a1252a9668" data-type="term">session</span> which is not encrypted or obfuscated in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="id96963f9f-5621-10d1-2d83-71b02cef0c49" data-type="term">one embodiment</span>.&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="b6498592-b6e0-80fd-3270-ac506c68c15c" id="id5fd0c832-e9f9-d54d-f585-28e78e27437a" data-type="term">index</span> 303 of which 
+  <span data-role="tag" data-value="6476e64d-d1e2-220a-21c8-3faa89132711" id="ide035de3a-a0c1-3739-6740-0f01e6923d7a" data-type="term">participant</span> in the 
+  <span data-role="tag" data-value="f26783e6-c975-c42a-6e65-b2a499495b08" id="idc2603ceb-fad3-e82d-8a58-64e91ee17640" data-type="term">session</span> that this 
+  <span data-role="tag" data-value="2f7136d8-f5a8-50ba-c279-1c6dbcf36cc8" id="idbe080921-ae99-2800-9ccc-a1f8cb996c66" data-type="term">ticket</span> refers to (not encrypted or obfuscated in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="idcda11928-91ed-70e7-bac6-09024f3d57ad" data-type="term">one embodiment</span>).&nbsp;
+</p>
+<p></p>
+<p>An 
+  <span data-role="tag" data-value="ae96cad9-d30d-79e9-53bd-156c7ccd8161" id="iddcc0987d-c20a-4c85-96c4-b195ca27c676" data-type="term">expiration time/date</span> 304, after which the 
+  <span data-role="tag" data-value="2f7136d8-f5a8-50ba-c279-1c6dbcf36cc8" id="ide4378d3c-e1e0-7813-7af3-d8cff3668f4d" data-type="term">ticket</span> is considered invalid (not encrypted or obfuscated in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="id33bb5484-644b-5c21-3b67-d7efd23f798f" data-type="term">one embodiment</span>).&nbsp;
+</p>
+<p></p>
+<p>The 
+  <span data-role="tag" data-value="bc98c610-2b7b-27d7-5d6c-bfcd11dc4fba" id="idc0f55831-0ae5-ecca-8374-afde123ca183" data-type="term">CDX Hole-Punch Data</span> 305-306 for each 
+  <span data-role="tag" data-value="6476e64d-d1e2-220a-21c8-3faa89132711" id="idada2ebae-f025-9f1c-a38a-ec19db24d27f" data-type="term">participant</span> in the 
+  <span data-role="tag" data-value="f26783e6-c975-c42a-6e65-b2a499495b08" id="id20e56f1c-42a7-90e5-9bbf-ff88a74e0dbf" data-type="term">session</span>, encrypted using the 
+  <span data-role="tag" data-value="36aa6050-8979-21a4-5b70-5acbc86f7f47" id="ide006f822-5950-ac52-2987-5b6e7663df5e" data-type="term">CDX Ticket Key</span> in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="id9a566e65-fefc-c6ca-835e-d9438f5a9b3c" data-type="term">one embodiment</span>.&nbsp;
+</p>
+<p></p>
+<p>A 
+  <span data-role="tag" data-value="aafcf113-b6e8-071c-dbf5-2919e2dfe438" id="idd4cdd958-f9e6-4597-7dd3-0596a5ae822a" data-type="term">Message Authentication Code</span> 307 using the 
+  <span data-role="tag" data-value="36aa6050-8979-21a4-5b70-5acbc86f7f47" id="id81da4ecc-8f5b-a194-4b61-5f87a510e70e" data-type="term">CDX Ticket Key</span>, which acts as a "Digital Signature" to ensure that the 
+  <span data-role="tag" data-value="2f7136d8-f5a8-50ba-c279-1c6dbcf36cc8" id="idaf4e789a-0ef8-e2ca-21e2-226d05f0ad91" data-type="term">ticket</span> is authentic.&nbsp;
+</p>
+<p></p>
+<p>
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="id787c174a-ca7d-b8cb-dede-f9ae29b52f79" data-type="term">CDX Ticket</span> Stub--The first 
+  <span data-role="tag" data-value="428ca935-8457-84f1-6952-4a3becb6d3c3" id="idcc9fd6a3-196b-c218-a202-95ca3f86e452" data-type="term">part</span> of a 
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="idf4e00b1d-a09c-0d06-afcb-5d276a1d345d" data-type="term">CDX Ticket</span>, minus the 
+  <span data-role="tag" data-value="bc98c610-2b7b-27d7-5d6c-bfcd11dc4fba" id="iddb32e065-ab66-f69b-c6b7-fc4d9e98f4e5" data-type="term">CDX Hole-Punch Data</span> and the 
+  <span data-role="tag" data-value="aafcf113-b6e8-071c-dbf5-2919e2dfe438" id="id6dd02c13-a90d-4f1d-cd3b-15680f846fdb" data-type="term">Message Authentication Code</span>.&nbsp;
+</p>
+<p></p>
+<p>Payload--This is the 
+  <span data-role="tag" data-value="e4e232a9-b76f-d395-00c7-7e4d6a35bbda" id="id85fe3918-469a-444c-7e10-37b0e1e97627" data-type="term">second part</span> of a 
+  <span data-role="tag" data-value="79052631-889e-0f30-9a09-ad47203285a2" id="id921e36f2-03c9-fe53-2221-2d4690b6cf69" data-type="term">CDX Request</span> and a 
+  <span data-role="tag" data-value="2f3cfe3e-ec70-e3d9-a1ff-5e24180c53e1" id="idedf85862-fc3f-3211-fa18-963cc9ca4923" data-type="term">CDX Response</span>. The 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="idaed0d4c1-3a4a-20f9-9fe8-84908152c93b" data-type="term">payload</span> is the 
+  <span data-role="tag" data-value="7e747581-ece9-c5b3-18fa-5a5d6587a930" id="idf0ad2ea4-6482-6faf-5349-b63aa01b1ea4" data-type="term">data</span> that a 
+  <span data-role="tag" data-value="4ed9fb9f-0a91-11f7-fdfa-cd586ea0b2da" id="idf7bb6a29-4cd0-db14-8084-9c755581579b" data-type="term">client device</span> wishes to communicate to 
+  <span data-role="tag" data-value="ec7d1202-fa8c-fa3f-8bd1-e5330e5f5a9b" id="idb160674d-bb0e-9d86-316a-b3fe373d5cc4" data-type="term">other devices</span> in the 
+  <span data-role="tag" data-value="e33a8fe2-7cc7-144c-1031-6980d6ba6017" id="id6861c1b5-7e88-ce91-da26-2ab675462161" data-type="term">CDX Session</span>. In this 
+  <span data-role="tag" data-value="2e16c5da-3c2a-396f-1fe4-b9fe3b38f468" id="idd56f3005-8671-4b4d-0f52-ab91f4dc89b7" data-type="term">embodiment</span>, the 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="idec9dbeeb-2d06-f123-998f-c32101e818f8" data-type="term">payload</span> is the 
+  <span data-role="tag" data-value="3b9b6e47-5e68-6a67-b5f6-6a3becd3b869" id="idfa39f94e-a469-9405-8525-831d6aae9096" data-type="term">Connection Data</span> encrypted with the 
+  <span data-role="tag" data-value="9960de7a-85ea-b0c7-57f9-90210a1699ab" id="idb5d7df92-08b5-09e6-7c36-d41ac46a1145" data-type="term">Session Key</span>. The 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id732b694b-1a61-e652-c490-879f3de8efa6" data-type="term">CDX server</span> does not decrypt the 
+  <span data-role="tag" data-value="faac3e6d-e926-2269-2395-0d70133d863a" id="idbcc67f60-29fa-22a3-7024-c4a8cb691503" data-type="term">payload</span>, in 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="idb26b957d-88b6-210a-3ffd-d5ff0229a25b" data-type="term">one embodiment</span>, it simply passes it along unchanged.&nbsp;
+</p>
+<p></p>
+<p>
+  <span data-role="tag" data-value="f26783e6-c975-c42a-6e65-b2a499495b08" id="id448b08e7-8254-c941-1429-8ec79911494c" data-type="term">Session</span> Key--This is the key used by the 
+  <span data-role="tag" data-value="33bfb937-f9e2-015a-e250-7f49d65d45cd" id="idac2fa68c-bf5f-68b5-b469-877fce4b1715" data-type="term">clients</span> to encrypt the 
+  <span data-role="tag" data-value="3b9b6e47-5e68-6a67-b5f6-6a3becd3b869" id="ida35b36bf-899e-3de2-e859-8079e441c56f" data-type="term">Connection Data</span>. In 
+  <span data-role="tag" data-value="ba857183-5287-037f-76c5-8c1536eb0285" id="idfa88dfba-44f0-fa4a-6368-538004201fec" data-type="term">one embodiment</span>, this key is not known to the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="id0a501755-4112-d4c2-a3bd-7db2bea24533" data-type="term">CDX server</span>. In this 
+  <span data-role="tag" data-value="2e16c5da-3c2a-396f-1fe4-b9fe3b38f468" id="id585495c0-d67f-d1e1-450c-eace23b469a7" data-type="term">embodiment</span>, the 
+  <span data-role="tag" data-value="9960de7a-85ea-b0c7-57f9-90210a1699ab" id="idb043920b-8ba2-20f2-e1ae-1560576e5e16" data-type="term">Session Key</span> is generated by the 
+  <span data-role="tag" data-value="7c8b7bec-a3f5-3273-8682-f669c02f9ccc" id="id5eaea8c5-d208-6e7e-d6cf-e64529186064" data-type="term">matchmaking service</span> and transmitted to the 
+  <span data-role="tag" data-value="33bfb937-f9e2-015a-e250-7f49d65d45cd" id="id77053bfd-b47e-71f0-422f-f7b3217b974b" data-type="term">clients</span> along with 
+  <span data-role="tag" data-value="764b01ea-93bf-83f6-e3e0-f5257f2e08f2" id="id300d39d9-a750-d892-cc19-8e2db576104c" data-type="term">their individual CDX Tickets</span>.&nbsp;
+</p>
+<p></p>
+<p>
+  <span data-role="tag" data-value="bedbb75b-5d2e-43ad-8a92-5bbf49d090a1" id="id87d95cf2-d34c-7094-d85b-88d66fc39288" data-type="term">CDX Ticket</span> Key--This is the key used to create and "sign" 
+  <span data-role="tag" data-value="92192fa5-ef49-8c79-7ed3-b1cd9a4abd67" id="idaed55090-1b58-f934-2b60-8990681c5416" data-type="term">CDX Tickets</span>. The 
+  <span data-role="tag" data-value="36aa6050-8979-21a4-5b70-5acbc86f7f47" id="ida98a227f-ae61-1dfd-660e-a8ba88107db0" data-type="term">CDX Ticket Key</span> is known only by the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="idb7d0e817-61a6-7400-347a-b74dcbdea2ae" data-type="term">CDX server</span> and the 
+  <span data-role="tag" data-value="dc1dcde3-9f11-0387-3eb5-3de949581882" id="id27ebffb6-0fad-fc52-5333-cf59dfc633e6" data-type="term">service</span> which generates CDX Tickets--which, as described below, could be the 
+  <span data-role="tag" data-value="7c8b7bec-a3f5-3273-8682-f669c02f9ccc" id="id29a6d680-0139-f1c9-9a5e-468da30a5eb1" data-type="term">matchmaking service</span> and/or the 
+  <span data-role="tag" data-value="83ab54e6-ea20-097f-4fbb-04bf0d13ca23" id="idaf50e31e-36b9-876d-0b69-a9ef34b1a271" data-type="term">invitation service</span>.&nbsp;
+</p>
+<p></p>
+<p>CDX Hole-Punch Request--A special 
+  <span data-role="tag" data-value="a0ae0618-42e7-4d0c-1966-9ea5e5394f8f" id="iddde29cbd-c96d-f219-cc33-3a49671bc5c0" data-type="term">type</span> of 
+  <span data-role="tag" data-value="79052631-889e-0f30-9a09-ad47203285a2" id="id1b5fd6a6-4a5d-2ae7-b3ab-8f8ffa724c73" data-type="term">CDX Request</span> which is used to obtain the 
+  <span data-role="tag" data-value="bc98c610-2b7b-27d7-5d6c-bfcd11dc4fba" id="id1fd5214d-2716-aa6b-39be-08243d579020" data-type="term">CDX Hole-Punch Data</span> from the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="ide28ccb48-064f-e824-b5eb-e149c1f92ddb" data-type="term">CDX server</span>.&nbsp;
+</p>
+<p></p>
+<p>CDX Hole-Punch Data--This is an 
+  <span data-role="tag" data-value="4f171d55-ae78-8f87-7a22-03bf97f0277e" id="idba440ba1-9a72-67d0-f8ad-879e4b5026e0" data-type="term">opaque data blob</span> that describes how the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="idcc317022-6701-33cc-3d5b-5e7de683fabf" data-type="term">CDX server</span> can send 
+  <span data-role="tag" data-value="ac2333e1-a350-5213-fda2-5eb7f3f23517" id="id7de1739a-2bd8-bb8c-5955-26a4338bcb93" data-type="term">information</span> to the 
+  <span data-role="tag" data-value="ca87eea1-4b92-581b-ff96-f248964df3f0" id="id989ad8b9-368b-f73c-6961-e3b574453b2b" data-type="term">client</span> which originally requested it. It is obtained by sending a 
+  <span data-role="tag" data-value="8d59a949-eb38-62fa-ff23-3ce846f8cb09" id="idd20ea0bf-c6c2-dad9-68c7-1a2df3db2eca" data-type="term">CDX Hole-Punch Request</span> to the 
+  <span data-role="tag" data-value="228d7a96-0305-77c7-7dc8-2a80ceebe2ea" id="ida815f90d-4214-eb65-8b2b-b55e29878903" data-type="term">CDX server</span>. 
+  <span data-role="tag" data-value="bc98c610-2b7b-27d7-5d6c-bfcd11dc4fba" id="id0f1fd338-e526-66e8-4dc6-8d86e206e9d9" data-type="term">CDX Hole-Punch Data</span> must be collected from each 
+  <span data-role="tag" data-value="4ed9fb9f-0a91-11f7-fdfa-cd586ea0b2da" id="idaf03568f-16a5-30d9-0b08-1191c04be200" data-type="term">client device</span> in the 
+  <span data-role="tag" data-value="e33a8fe2-7cc7-144c-1031-6980d6ba6017" id="id88e131a5-b93f-d38b-49ff-808aa45f1adb" data-type="term">CDX Session</span> before 
+  <span data-role="tag" data-value="92192fa5-ef49-8c79-7ed3-b1cd9a4abd67" id="idb4931077-1b63-0399-891e-451b16b40e07" data-type="term">CDX Tickets</span> can be generated. The 
+  <span data-role="tag" data-value="bc98c610-2b7b-27d7-5d6c-bfcd11dc4fba" id="id3bc22295-000c-fa50-cd48-5e3b53a3d08b" data-type="term">CDX Hole-Punch Data</span> (sometimes referred to as "NAT traversal data") may include the 
+  <span data-role="tag" data-value="8fee6986-e6d7-39b3-e43f-673c72817740" id="idcfa2f3c8-baaa-cb40-00aa-f83e452ed266" data-type="term">public IP address and port</span> of a 
+  <span data-role="tag" data-value="91405147-cc37-fedc-2e50-da345288b122" id="ida5e802ea-fb7f-1a83-1b2d-d2b3ac64724f" data-type="term">requesting device</span>.&nbsp;
+</p>
+<p></p>

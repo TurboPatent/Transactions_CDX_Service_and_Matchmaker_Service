@@ -1,0 +1,496 @@
+{
+  "name": "Transactions_CDX_Service_and_Matchmaker_Service",
+  "description": "illustrates transactions of connection data exchange (CDX) service and matchmaker service",
+  "owner": {
+    "login": "TurboPatent",
+    "type": "organization"
+  },
+  "license": "MIT",
+  "private": false,
+  "details": {
+    "counts": {
+      "termCount": 271,
+      "claimCount": 1,
+      "independentCount": 1,
+      "drawingCount": 2,
+      "glossaryCount": 0
+    },
+    "briefDescriptions": [
+      "<p>&nbsp;</p>",
+      "<p>&nbsp;</p>"
+    ],
+    "parts": [
+      {
+        "name": "mobile device A",
+        "number": 102
+      },
+      {
+        "name": "CDX service",
+        "number": 104
+      },
+      {
+        "name": "mobile device B",
+        "number": 106
+      },
+      {
+        "name": "matchmaker service",
+        "number": 108
+      },
+      {
+        "name": "NAT traversal request",
+        "number": 110
+      },
+      {
+        "name": "nat traversal response",
+        "number": 112
+      },
+      {
+        "name": "NAT traversal request",
+        "number": 114
+      },
+      {
+        "name": "match request",
+        "number": 116
+      },
+      {
+        "name": "nat traversal response",
+        "number": 118
+      },
+      {
+        "name": "match request",
+        "number": 120
+      },
+      {
+        "name": "Ticket A",
+        "number": 122
+      },
+      {
+        "name": "Ticket B",
+        "number": 124
+      },
+      {
+        "name": "Ticket A with Connection Data",
+        "number": 126
+      },
+      {
+        "name": "authenticate Ticket A",
+        "number": 128
+      },
+      {
+        "name": "Connection Data",
+        "number": 130
+      },
+      {
+        "name": "ack",
+        "number": 132
+      },
+      {
+        "name": "ack",
+        "number": 134
+      },
+      {
+        "name": "authenticate Ticket B",
+        "number": 136
+      },
+      {
+        "name": "Ticket B with Connection Data",
+        "number": 138
+      },
+      {
+        "name": "Connection Data",
+        "number": 140
+      },
+      {
+        "name": "ack",
+        "number": 142
+      },
+      {
+        "name": "ack",
+        "number": 144
+      },
+      {
+        "name": "direct P2P connection",
+        "number": 146
+      },
+      {
+        "name": "",
+        "number": 202
+      },
+      {
+        "name": "NAT traversal P2P service",
+        "number": 204
+      },
+      {
+        "name": "NAT traversal service",
+        "number": 206
+      },
+      {
+        "name": "mobile device C",
+        "number": 208
+      },
+      {
+        "name": "nat traversal r/r",
+        "number": 210
+      },
+      {
+        "name": "nat type r/r",
+        "number": 212
+      },
+      {
+        "name": "nat type r/r",
+        "number": 214
+      },
+      {
+        "name": "match request",
+        "number": 216
+      },
+      {
+        "name": "nat traversal r/r",
+        "number": 218
+      },
+      {
+        "name": "match request",
+        "number": 220
+      },
+      {
+        "name": "nat type r/r",
+        "number": 222
+      },
+      {
+        "name": "nat traversal r/r",
+        "number": 224
+      },
+      {
+        "name": "match request",
+        "number": 226
+      },
+      {
+        "name": "Ticket A",
+        "number": 228
+      },
+      {
+        "name": "Ticket B",
+        "number": 230
+      },
+      {
+        "name": "get a conn data",
+        "number": 232
+      },
+      {
+        "name": "device a conn data",
+        "number": 234
+      },
+      {
+        "name": "Ticket B with conn data",
+        "number": 236
+      },
+      {
+        "name": "get c conn data",
+        "number": 238
+      },
+      {
+        "name": "device c conn data",
+        "number": 240
+      },
+      {
+        "name": "get b conn data",
+        "number": 242
+      },
+      {
+        "name": "Ticket A w/ conn data",
+        "number": 244
+      },
+      {
+        "name": "Ticket C",
+        "number": 246
+      },
+      {
+        "name": "device b conn data",
+        "number": 248
+      },
+      {
+        "name": "p2p connections",
+        "number": 250
+      },
+      {
+        "name": "Ticket C w/ conn data",
+        "number": 252
+      }
+    ],
+    "terms": [
+      "device B's",
+      "game \"bucket\"",
+      "hole\"",
+      "encrypted \"ticket\"",
+      "user's",
+      "services 290",
+      "mobile device A",
+      "Ticket A",
+      "acknowledgements",
+      "addition",
+      "IP address",
+      "public/private IP address",
+      "public IP address",
+      "different IP addresses",
+      "same key generation algorithm",
+      "collaborative application",
+      "Push Notification Application",
+      "present application",
+      "assignee",
+      "registration directory associates",
+      "Client Device B",
+      "mobile device B",
+      "other information identifying mobile device B",
+      "mobile devices B",
+      "Ticket B",
+      "daily basis",
+      "opaque data blob",
+      "Tickets A, B and C",
+      "tickets A, B, and C",
+      "mobile device C",
+      "Ticket C",
+      "case",
+      "cases",
+      "clients",
+      "client",
+      "code",
+      "Message Authentication Code",
+      "new authentication code",
+      "ID code",
+      "game-specific player ID codes",
+      "unique player ID code",
+      "unique ID codes",
+      "identification code",
+      "identification codes",
+      "different IP/port combinations",
+      "communicates",
+      "communication",
+      "P2P communication",
+      "cone",
+      "full cone",
+      "port restricted cone",
+      "connection",
+      "P2P connection",
+      "P2P connections",
+      "direct P2P connection",
+      "consistency",
+      "matching criteria",
+      "additional matching criteria",
+      "data",
+      "arbitrary data",
+      "Connection Data",
+      "exchanged connection data",
+      "full connection data",
+      "Hole-Punch Data",
+      "CDX Hole-Punch Data",
+      "other data",
+      "hole punch data",
+      "NAT traversal data",
+      "NAT type data",
+      "registration database",
+      "expiration time/date",
+      "detail",
+      "additional details",
+      "greater detail",
+      "specific details",
+      "device",
+      "devices",
+      "client devices",
+      "client device",
+      "one or more other computing devices",
+      "mobile device",
+      "mobile devices",
+      "and B, mobile devices",
+      "one embodiment, mobile device",
+      "respective mobile device",
+      "NAT device",
+      "other devices",
+      "requesting device",
+      "wireless devices",
+      "one or more other users/devices--in",
+      "difficulty",
+      "directory",
+      "central registration directory",
+      "embodiments",
+      "embodiment",
+      "alternate embodiment",
+      "one embodiment",
+      "one particular embodiment",
+      "authorized entities",
+      "standard Internet Connectivity Establishment",
+      "example",
+      "more detailed example",
+      "particular example",
+      "specific example",
+      "player expertise",
+      "FIGS",
+      "encryption/decryption--a first",
+      "functions",
+      "NAT traversal functions",
+      "game",
+      "multi-player game",
+      "same game",
+      "group",
+      "hole",
+      "bucket IDs",
+      "unique \"bucket ID",
+      "Session ID",
+      "unique CDX Session ID",
+      "user ID",
+      "index",
+      "information",
+      "large integer",
+      "fixed intervals",
+      "invention",
+      "next key",
+      "Session Key",
+      "unique Session Key",
+      "ticket key",
+      "CDX Ticket Key",
+      "CDX ticket keys",
+      "two (or more) different CDX ticket keys",
+      "new CDX ticket key",
+      "unique CDX ticket key",
+      "current ticket key",
+      "new ticket key",
+      "two ticket keys",
+      "level",
+      "lieu",
+      "limitation",
+      "encrypted list",
+      "lookup",
+      "manner",
+      "match",
+      "mechanism",
+      "well-known RSA SecurID authentication mechanism",
+      "particular mechanism",
+      "member",
+      "members",
+      "message",
+      "three different mobile devices 120-122 negotiate",
+      "network",
+      "push notifications",
+      "number",
+      "phone numbers",
+      "public port number",
+      "telephone number",
+      "operation",
+      "same operations",
+      "part",
+      "second part",
+      "two parts",
+      "participants",
+      "participant",
+      "password",
+      "payload",
+      "constructed Payload",
+      "potential peers",
+      "specified period",
+      "player",
+      "players",
+      "port",
+      "ports",
+      "public IP address/port",
+      "public IP address and port",
+      "underlying principles",
+      "process",
+      "push",
+      "authenticated multicast reflector",
+      "request",
+      "CDX Request",
+      "given CDX Request",
+      "CDX Hole-Punch Request",
+      "invitation requests",
+      "invitation request",
+      "match requests",
+      "match request",
+      "NAT traversal request",
+      "NAT type request",
+      "response",
+      "CDX Response",
+      "invitation response",
+      "retry",
+      "Hypertext Transfer Protocol Secure",
+      "specific functional separation",
+      "series",
+      "exemplary series",
+      "CDX server",
+      "service",
+      "two additional services",
+      "CDX service",
+      "invitation service",
+      "matchmaker service",
+      "matchmaking service",
+      "notification service",
+      "push notification service",
+      "Apple Push Notification Service",
+      "NAT traversal P2P service",
+      "push service",
+      "relay service",
+      "separate services",
+      "stateless service",
+      "NAT traversal service",
+      "single NAT traversal service",
+      "session",
+      "CDX Session",
+      "collaborative chat session",
+      "audio/video chat session",
+      "particular collaborative session",
+      "individual session",
+      "invitation session",
+      "P2P session",
+      "P2P sessions",
+      "Peer-To-Peer Session",
+      "unique session",
+      "CDX Hole-Punch Data set",
+      "different sets",
+      "similar, sets",
+      "UDP sockets",
+      "stage",
+      "current state",
+      "data structures",
+      "ticket data structure",
+      "CDX Ticket Stub",
+      "sub-region",
+      "summary",
+      "forgery or tampering",
+      "techniques",
+      "various known techniques",
+      "associated text",
+      "ticket",
+      "tickets",
+      "CDX Ticket",
+      "CDX Tickets",
+      "their individual CDX Tickets",
+      "their CDX Ticket",
+      "unique CDX Ticket",
+      "encrypted ticket",
+      "time",
+      "tokens",
+      "push tokens",
+      "push token",
+      "transactions",
+      "transaction",
+      "ICE connection data transaction",
+      "standard ICE connection data transaction",
+      "involve standard ICE transactions",
+      "HTTPS request/response transactions",
+      "similar transactions",
+      "type",
+      "NAT type",
+      "NAT types",
+      "alternative NAT type",
+      "same types",
+      "user",
+      "users",
+      "one or more users",
+      "specific mobile devices and/or users",
+      "variables",
+      "game configuration variables",
+      "different game configuration variables",
+      "other game configuration variables"
+    ],
+    "glossary": []
+  },
+  "repository": "https://github.com/TurboPatent/Transactions_CDX_Service_and_Matchmaker_Service"
+}
